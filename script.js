@@ -35,5 +35,5 @@ const dropdowns = document.querySelectorAll(".dropdown select");
     //console.log(currecyCode);
     let countryCode = countryList[currecyCode];
     //console.log(countryCode);
-    let newSrc = `https://flagsapi.com/IN/flat/64.png`
+    let newSrc = `https://flagsapi.com/${countryCode}/flat/64.png`
  }
